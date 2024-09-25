@@ -134,7 +134,7 @@ body{
     content: "..     .." ;
     height: 2vh;
     width:2vw;
-   background-image: url("coma.png");
+   background-image: url("icon1.png");
    background-size: contain;
    background-repeat: no-repeat;
  
@@ -145,7 +145,7 @@ body{
     content: "..  .. " ;
     height: 2vh;
     width:2vw;
-    background-image: url("coma2.png");
+    background-image: url("icon2.png");
     background-size: contain;
     background-repeat: no-repeat;
   
