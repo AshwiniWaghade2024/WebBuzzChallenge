@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+   justify-content: center;
+} 
+#container{
+    background-color: white;
+    height: 300vh;
+    width:95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.header{
+    border: 2px solid black;
+    background-color: #282828;
+    color: white;
+    margin: 1vh;
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    border-top-right-radius: 4vh;
+    border-bottom-left-radius: 4vh;
+}
+#logo{
+    background: linear-gradient(90deg, #ffcc00, #ff5733, #ff007f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: bold;
+    display: inline-block;
+    font-family: "Protest Guerrilla", sans-serif;
+    margin-left: 2vw;
+}
+#nav ul {
+    display: flex;
+    list-style: none;
+    margin:3vh;
+   
+}
+#nav ul li{
+ padding-left: 5vh;
+ width:5vw;
+ justify-content: space-between;
+
+}
+#nav ul li a{
+   font-size: 1.2rem;
+   text-decoration: none;
+   font-weight: 600;
+   color: white;
+   margin-left: 3vw;
+   
+ }
+ 
+ 
+#sign{
+    margin-left:25vw;
+    height: 6vh;
+    width:10vw;
+    font-size: 1em;
+    border-radius: 20vh;
+    background-color: #f48038;
+    color: white;
+    font-weight: 600;
+}
+#sec1{
+    height: 80vh;
+    width:92vw;
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+}
+#box{
+    height: 60vh;
+    width:90vw;
+    margin: 3vh;
+    border-radius: 3vh;
+    background: linear-gradient(90deg,#282828,#3a3a3a,#282828);
+    display: flex;
+    justify-content: right;
+
+   
+}
+#sec1 img{
+    height: 78vh;
+   
+    z-index: 4;
+}
+.text-container{
+   height: 50vh;
+   width: 40vw;
+   font-size: 2rem;
+   margin-left: 2vh;
+}
+.title{
+    font-size: 4rem; 
+    color: white;
+    font-weight: 500;
+    font-family: "Protest Guerrilla", sans-serif;
+    margin: 0;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-stroke: 2px white; 
+}
+.subtitle {
+    font-size: 3.5rem; 
+    background: linear-gradient(90deg, #00c6ff, #0072ff, #00ff88); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px white;
+    text-stroke: 2px white;
+}
+
+.quote{
+    color:white;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Cinzel", serif;
+    position: relative;
+    margin-left:2vw;
+}
+.quote::before{
+    content: "..     .." ;
+    height: 2vh;
+    width:2vw;
+   background-image: url("coma.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+ 
+ 
+   z-index: 3;
+}
+.quote::after{
+    content: "..  .. " ;
+    height: 2vh;
+    width:2vw;
+    background-image: url("coma2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+   z-index: 4;
+}
+
+
+ #sec2{
+    height: 70vh;
+    width:90vw;
+    margin: 5vh;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row;
+   
+}
+#sec2 .text{
+    height: fit-content;
+    width: fit-content;
+    font-size: 0.8rem;
+}
+#sec2 h1{
+    background: linear-gradient(90deg, #ffcc00, #ff5733, #ff007f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+    font-weight: bold;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    margin-left: 4vw;
+    
+}
+
+#sec2 .img:hover{
+    animation: fadeIn 1s forwards;
+    animation: slideIn 1s forwards;
+}
+
+#sec2 pre{
+    font-family: "Roboto", sans-serif;
+    margin-top: 0vh;
+    font-size: 1rem;
+
+}
+#sec2 .img{
+    margin-top: 6vh;
+    height:50vh;
+    width:40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.img #img1{
+    height:48vh;
+    width:25vw;
+    border-radius: 10px;
+    box-shadow: 1vw 2vh 1vh 4px rgb(0,0,0,0.5);
+}
+.img #img2{
+    height:48vh;
+    width:25vw;
+    border-radius: 10px;
+    box-shadow: 1vw 2vh 1vh 4px rgb(0,0,0,0.5);
+
+} 
+
+
+#sec3{
+    height: 100vh;
+    width:90vw;
+    margin: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+#sec3 header{
+    background: linear-gradient(90deg, #ffcc00, #ff5733, #ff007f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.7rem;
+    font-weight: bold;
+    display: inline-block;
+    font-family: "Protest Guerrilla", sans-serif;
+    margin-left: 2vw;
+}
+#sec3 header:hover{
+    color:linen;
+}
+#sec3 header pre{
+   justify-content: center;
+    font-size: 2.8rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    height: 15vh;
+}
+.slider{
+    height: 55vh;
+    width: 90%;
+    position:relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.slide-track{
+    display:flex;
+    width: calc(250px * 10);
+    animation: scroll 40s linear infinite;
+    gap: 3vw;
+}
+.slide-track:hover{
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 10));
+    }
+    
+}
+.slide{
+    height:70vh;
+    width:250px;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+.slider img{
+    height: 50vh; 
+    width: 20vw;
+    border-radius: 1.3rem;
+    transform: transform 1s;
+}
+.slider img:hover{
+    transform: translateZ(20px);
+}
+.slider::before,
+.slider::after{
+    background:linear-gradient(to right,#f9f9f9f9 0%,
+    #fafafa00 100%);
+    content:'';
+    height:100%;
+    position:absolute;
+    width:15%;
+    z-index:2;
+}
+
+.slider::before{
+    left:0;
+    top:0;
+}
+.slider::after{
+    right:0;
+    top:0;
+    transform:rotateZ(180deg);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.image-animation {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.text-animation {
+    opacity: 0;
+    animation: slideIn 1s forwards;
+}
+
+
+footer {
+    margin-top: 15vh;
+    background-color: #1a2632e4; 
+    color: #fff; 
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 250px;
+}
+
+.footer-section h2 {
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #ffcc00; 
+}
+
+.footer-section p {
+    margin: 10px 0;
+}
+
+.footer-section a {
+    color: #ffcc00; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#facebook { background-image: url('img/facebook-icon.png'); background-size: cover; }
+#twitter { background-image: url('img/twitter-icon.png'); background-size: cover; }
+#instagram { background-image: url('img/instagram-icon.png'); background-size: cover; }
+#linkedin { background-image: url('img/linkedin-icon.png'); background-size: cover; }
+
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #001f3f; 
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 12px;
+}
+
+  
